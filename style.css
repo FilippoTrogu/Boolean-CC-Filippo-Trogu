@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%,100%;
+}
+
+.container{
+  background: rgba(0, 0, 0, 0.4);
+  width: 60%;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 7%;
+}
+
+.logo{
+  width: 230px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-text{
+  font-size: 40px;
+  color: rgb(0, 221, 0);
+  text-align: center;
+}
+
+.containern3{
+  background-color: rgb(0, 221, 0);
+  width: 80%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottone {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.statocarica{
+  height: 30px;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+
+.primo{
+  width: 30%;
+  background-color: orange;
+}
+
+.secondo{
+  width: 50%;
+  background-color: rgb(0, 221, 0);
+}
+
+.terzo{
+  width: 15%;
+  background-color: red;
+  margin-bottom: 5%;
+}
+
+.testo{
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+}
+
+.monopattino{
+  margin-top: 2%;
+}
